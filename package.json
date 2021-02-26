@@ -26,6 +26,6 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
-    "@vandeurenglenn/pubsub-text": "^0.2.1"
+    "@vandeurenglenn/pubsub-text": "^0.2.2"
   }
 }
