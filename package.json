@@ -1,6 +1,6 @@
 {
   "name": "@vandeurenglenn/pubsub-text-short",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "dist/pubsub-text-short.cjs",
   "module": "dist/pubsub-text-short.js",
