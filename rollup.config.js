@@ -5,7 +5,7 @@ import resolve from '@rollup/plugin-node-resolve'
 export default [{
   input: ['src/pubsub-text-short.js'],
   output: [{
-    dir: './dist/pubsub-text-short.js',
+    file: './dist/pubsub-text-short.js',
     format: 'es'
   }, {
     file: './dist/pubsub-text-short.cjs',
@@ -18,7 +18,7 @@ export default [{
 }, {
   input: ['src/pubsub-text-short.js'],
   output: [{
-    dir: './dist/pubsub-text-short.min.js',
+    file: './dist/pubsub-text-short.min.js',
     format: 'es'
   }, {
     file: './dist/pubsub-text-short.min.cjs',
