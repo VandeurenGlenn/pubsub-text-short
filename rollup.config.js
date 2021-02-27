@@ -5,10 +5,12 @@ import resolve from '@rollup/plugin-node-resolve'
 export default [{
   input: ['src/pubsub-text-short.js'],
   output: [{
-    file: './dist/pubsub-text-short.js',
+    exports: 'auto',
+    file: './dist/pubsub-text-short.browser.js',
     format: 'es'
   }, {
-    file: './dist/pubsub-text-short.cjs',
+    exports: 'auto',
+    file: './dist/pubsub-text-short.js',
     format: 'cjs'
   }],
   plugins: [
@@ -18,10 +20,12 @@ export default [{
 }, {
   input: ['src/pubsub-text-short.js'],
   output: [{
-    file: './dist/pubsub-text-short.min.js',
+    exports: 'auto',
+    file: './dist/pubsub-text-short.min.browser.js',
     format: 'es'
   }, {
-    file: './dist/pubsub-text-short.min.cjs',
+    exports: 'auto',
+    file: './dist/pubsub-text-short.min.js',
     format: 'cjs'
   }],
   plugins: [
