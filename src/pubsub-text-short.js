@@ -1,4 +1,4 @@
-import PubsubText from '@vandeurenglenn/pubsub-text'
+import PubsubText from '@vandeurenglenn/pubsub-text/src/text'
 
 export default customElements.define('pubsub-text-short', class extends PubsubText {
   constructor() {
